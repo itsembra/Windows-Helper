@@ -39,5 +39,15 @@ namespace WindowsHelper
             this.Hide();
             new Main_Menu_Window().Show();
         }
+
+        private void Opera_GX_Download_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("OperaGX.bat");
+        }
+
+        private void Tor_Browser_Download_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("TorBrowser.bat");
+        }
     }
 }

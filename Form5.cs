@@ -33,5 +33,15 @@ namespace WindowsHelper
             this.Hide();
             new Main_Menu_Window().Show();
         }
+
+        private void WinRAR_Link_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("WinRAR.bat");
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("7zip.bat");
+        }
     }
 }

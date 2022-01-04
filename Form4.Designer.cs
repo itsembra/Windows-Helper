@@ -81,6 +81,7 @@
             this.Opera_GX_Download.TabIndex = 3;
             this.Opera_GX_Download.TabStop = true;
             this.Opera_GX_Download.Text = "https://bit.ly/3mPUqSa";
+            this.Opera_GX_Download.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Opera_GX_Download_LinkClicked);
             // 
             // groupBox1
             // 
@@ -110,7 +111,8 @@
             this.Tor_Browser_Download.Size = new System.Drawing.Size(159, 12);
             this.Tor_Browser_Download.TabIndex = 6;
             this.Tor_Browser_Download.TabStop = true;
-            this.Tor_Browser_Download.Text = "https://bit.ly/3pNIDWw";
+            this.Tor_Browser_Download.Text = "https://bit.ly/3JAMU7v";
+            this.Tor_Browser_Download.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Tor_Browser_Download_LinkClicked);
             // 
             // Tor_Info_Label
             // 

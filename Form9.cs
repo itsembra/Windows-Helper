@@ -33,5 +33,10 @@ namespace WindowsHelper
             this.Close();
             new Main_Menu_Window().Show();
         }
+
+        private void Ultimative_Powerpaln_Link_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("Ulti.bat");
+        }
     }
 }

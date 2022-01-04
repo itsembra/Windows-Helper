@@ -78,6 +78,7 @@
             this.WinRAR_Link.TabIndex = 3;
             this.WinRAR_Link.TabStop = true;
             this.WinRAR_Link.Text = "https://bit.ly/3sQWLjx";
+            this.WinRAR_Link.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.WinRAR_Link_LinkClicked);
             // 
             // Farbe_Unter_Dem_Text_Seven_Zip
             // 
@@ -107,7 +108,8 @@
             this.linkLabel1.Size = new System.Drawing.Size(159, 12);
             this.linkLabel1.TabIndex = 6;
             this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "https://bit.ly/3sQWLjx";
+            this.linkLabel1.Text = "https://bit.ly/3FS3hu0";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // ZIP_RAR_Window
             // 

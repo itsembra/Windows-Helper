@@ -66,6 +66,7 @@
             this.Tuning_Pack_Link.TabIndex = 2;
             this.Tuning_Pack_Link.TabStop = true;
             this.Tuning_Pack_Link.Text = "https://bit.ly/3nb57z1";
+            this.Tuning_Pack_Link.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Tuning_Pack_Link_LinkClicked);
             // 
             // Back_To_Main_Menu_Button
             // 
@@ -88,6 +89,7 @@
             this.YouTube_Info_Link.TabIndex = 4;
             this.YouTube_Info_Link.TabStop = true;
             this.YouTube_Info_Link.Text = "https://bit.ly/3JAfrKk";
+            this.YouTube_Info_Link.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.YouTube_Info_Link_LinkClicked);
             // 
             // YouTube_Text_Info_Label
             // 

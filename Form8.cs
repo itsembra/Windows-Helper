@@ -33,5 +33,15 @@ namespace WindowsHelper
             this.Hide();
             new Main_Menu_Window().Show();
         }
+
+        private void Tuning_Pack_Link_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("Tuning_Pack.bat");
+        }
+
+        private void YouTube_Info_Link_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("Tuning_Tutorial.bat");
+        }
     }
 }

@@ -75,6 +75,7 @@
             this.Opti_Gaming_Link.TabIndex = 3;
             this.Opti_Gaming_Link.TabStop = true;
             this.Opti_Gaming_Link.Text = "https://bit.ly/3pMa2rz";
+            this.Opti_Gaming_Link.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Opti_Gaming_Link_LinkClicked);
             // 
             // Optimization_For_Gaming_Window
             // 

@@ -45,6 +45,7 @@
             this.Ultimative_Powerpaln_Link.TabIndex = 7;
             this.Ultimative_Powerpaln_Link.TabStop = true;
             this.Ultimative_Powerpaln_Link.Text = "https://bit.ly/3sQATol";
+            this.Ultimative_Powerpaln_Link.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Ultimative_Powerpaln_Link_LinkClicked);
             // 
             // Back_To_Main_Menu_Button
             // 

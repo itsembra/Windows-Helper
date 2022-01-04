@@ -77,5 +77,18 @@ namespace WindowsHelper
             this.Hide();
             new Other_Window().Show();
         }
+
+        private void Rick_Role_Label_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("RickRolle.bat");
+        }
+
+        private void Restart_Button_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Do you really want to restart this Application?", "Restart", MessageBoxButtons.YesNo, MessageBoxIcon.Information) == DialogResult.Yes)
+            {
+                Application.Restart();
+            }
+        }
     }
 }

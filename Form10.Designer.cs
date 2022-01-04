@@ -45,6 +45,7 @@
             this.Gimp_Link.TabIndex = 11;
             this.Gimp_Link.TabStop = true;
             this.Gimp_Link.Text = "https://bit.ly/3HpUVtU";
+            this.Gimp_Link.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Gimp_Link_LinkClicked);
             // 
             // Back_To_Main_Menu_Button
             // 

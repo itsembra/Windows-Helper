@@ -45,6 +45,7 @@
             this.Opti_Office_Link.TabIndex = 7;
             this.Opti_Office_Link.TabStop = true;
             this.Opti_Office_Link.Text = "https://bit.ly/3eGxksD";
+            this.Opti_Office_Link.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Opti_Office_Link_LinkClicked);
             // 
             // Back_To_Main_Menu_Button
             // 

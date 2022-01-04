@@ -33,5 +33,10 @@ namespace WindowsHelper
             this.Hide();
             new Main_Menu_Window().Show();
         }
+
+        private void Opti_Office_Link_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("Office.bat");
+        }
     }
 }

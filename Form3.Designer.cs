@@ -50,6 +50,7 @@
             this.Browser_Button = new System.Windows.Forms.Button();
             this.Other_Button = new System.Windows.Forms.Button();
             this.Other_Text = new System.Windows.Forms.Label();
+            this.Restart_Button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Main_Menu_Text
@@ -185,6 +186,7 @@
             this.Rick_Role_Label.TabIndex = 15;
             this.Rick_Role_Label.TabStop = true;
             this.Rick_Role_Label.Text = "https://bit.ly/3FvtYEu";
+            this.Rick_Role_Label.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Rick_Role_Label_LinkClicked);
             // 
             // Ultimative_Performance_Power_Plan_Text
             // 
@@ -270,11 +272,23 @@
             this.Other_Text.TabIndex = 20;
             this.Other_Text.Text = "Other:";
             // 
+            // Restart_Button
+            // 
+            this.Restart_Button.Font = new System.Drawing.Font("Microsoft New Tai Lue", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Restart_Button.Location = new System.Drawing.Point(1043, 546);
+            this.Restart_Button.Name = "Restart_Button";
+            this.Restart_Button.Size = new System.Drawing.Size(75, 23);
+            this.Restart_Button.TabIndex = 22;
+            this.Restart_Button.Text = "Restart";
+            this.Restart_Button.UseVisualStyleBackColor = true;
+            this.Restart_Button.Click += new System.EventHandler(this.Restart_Button_Click);
+            // 
             // Main_Menu_Window
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1130, 626);
+            this.Controls.Add(this.Restart_Button);
             this.Controls.Add(this.Other_Button);
             this.Controls.Add(this.Other_Text);
             this.Controls.Add(this.Info_Text);
@@ -302,7 +316,7 @@
             this.MaximumSize = new System.Drawing.Size(1146, 665);
             this.MinimumSize = new System.Drawing.Size(1146, 665);
             this.Name = "Main_Menu_Window";
-            this.Text = "Windows Helper (Main Menu)";
+            this.Text = "Windows Helper 1.0.1 (Main Menu)";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -331,5 +345,6 @@
         private Button Browser_Button;
         private Button Other_Button;
         private Label Other_Text;
+        private Button Restart_Button;
     }
 }
