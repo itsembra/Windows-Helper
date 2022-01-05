@@ -316,7 +316,7 @@
             this.MaximumSize = new System.Drawing.Size(1146, 665);
             this.MinimumSize = new System.Drawing.Size(1146, 665);
             this.Name = "Main_Menu_Window";
-            this.Text = "Windows Helper 1.0.1 (Main Menu)";
+            this.Text = "Windows Helper 1.0.3 (Main Menu)";
             this.ResumeLayout(false);
             this.PerformLayout();
 
