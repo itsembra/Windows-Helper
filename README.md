@@ -1,4 +1,4 @@
-V. 1.0.2:
+V. 1.0.3:
 
 # Windows-Helper
 
@@ -12,7 +12,9 @@ Please report Bugs under the offical GitHub Site.
 
 This is not a Virus!;
 
-https://www.virustotal.com/gui/file/c7ba75e93eec88e7652276354d3f4d216c7e6bcef72884639a9c788974d304f7
+https://www.virustotal.com/gui/file/c449d8f390ec915969354fcc3aa1310f9c5e937ee689560175af0a7a47be1851
+
+Notice, that this Link is about the latest Update. The Link in the Installer is older.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
