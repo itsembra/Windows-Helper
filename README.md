@@ -1,6 +1,6 @@
-V. 1.0.3:
+**_V. 1.0.3:_**
 
-# Windows-Helper
+**# Windows-Helper**
 
 YOU CAN DOWNLOAD THIS APPLICATION UNDER THE RELEASES ON GITHUB!!!
 
@@ -10,7 +10,7 @@ Please report Bugs under the offical GitHub Site.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-This is not a Virus!;
+**This is not a Virus!;**
 
 https://www.virustotal.com/gui/file/c449d8f390ec915969354fcc3aa1310f9c5e937ee689560175af0a7a47be1851
 
@@ -18,7 +18,7 @@ Notice, that this Link is about the latest Update. The Link in the Installer is 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Copyright:
+**Copyright:**
 
 All Users and Sites, who are linked in this Application.
 
