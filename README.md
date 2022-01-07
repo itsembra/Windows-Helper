@@ -1,6 +1,6 @@
 **_V. 1.0.3:_**
 
-**# Windows-Helper**
+# Windows-Helper
 
 YOU CAN DOWNLOAD THIS APPLICATION UNDER THE RELEASES ON GITHUB!!!
 
