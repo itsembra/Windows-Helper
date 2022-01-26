@@ -24,7 +24,7 @@ Notice, that this Link is about the latest Update. The Link in the Installer is 
 
 **Copyright:**
 
-All Users and Sites, who are linked in this Application.
+All Users and Sites, who are linked in this Application. #Advertising
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
