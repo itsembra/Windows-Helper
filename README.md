@@ -2,6 +2,10 @@
 
 # Windows-Helper
 
+The Windows-Helper helps you with Windows Basics and Windows Apps you need to know.
+
+--------------------------------------------------------
+
 YOU CAN DOWNLOAD THIS APPLICATION UNDER THE RELEASES ON GITHUB!!!
 
 DO NOT COPY or re-PUBLISH this Application without the owners consent!
