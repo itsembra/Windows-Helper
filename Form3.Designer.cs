@@ -57,6 +57,9 @@
             this.How_To_Update_Label = new System.Windows.Forms.Label();
             this.Surface_Infos_Button = new System.Windows.Forms.Button();
             this.Surface_Info_Label = new System.Windows.Forms.Label();
+            this.Dark_Mode_Button = new System.Windows.Forms.Button();
+            this.Light_Mode_Button = new System.Windows.Forms.Button();
+            this.Dark_Mode_Label_Fun = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Main_Menu_Text
@@ -72,9 +75,9 @@
             // Farbe_Unter_Dem_Main_Menu_Text
             // 
             this.Farbe_Unter_Dem_Main_Menu_Text.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.Farbe_Unter_Dem_Main_Menu_Text.Location = new System.Drawing.Point(53, 103);
+            this.Farbe_Unter_Dem_Main_Menu_Text.Location = new System.Drawing.Point(28, 112);
             this.Farbe_Unter_Dem_Main_Menu_Text.Name = "Farbe_Unter_Dem_Main_Menu_Text";
-            this.Farbe_Unter_Dem_Main_Menu_Text.Size = new System.Drawing.Size(234, 10);
+            this.Farbe_Unter_Dem_Main_Menu_Text.Size = new System.Drawing.Size(294, 10);
             this.Farbe_Unter_Dem_Main_Menu_Text.TabIndex = 2;
             this.Farbe_Unter_Dem_Main_Menu_Text.TabStop = false;
             // 
@@ -91,7 +94,7 @@
             // 
             this.ZIP_and_RAR_Extracter_Text.AutoSize = true;
             this.ZIP_and_RAR_Extracter_Text.Font = new System.Drawing.Font("Impact", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ZIP_and_RAR_Extracter_Text.Location = new System.Drawing.Point(29, 204);
+            this.ZIP_and_RAR_Extracter_Text.Location = new System.Drawing.Point(248, 208);
             this.ZIP_and_RAR_Extracter_Text.Name = "ZIP_and_RAR_Extracter_Text";
             this.ZIP_and_RAR_Extracter_Text.Size = new System.Drawing.Size(155, 25);
             this.ZIP_and_RAR_Extracter_Text.TabIndex = 5;
@@ -100,7 +103,7 @@
             // ZIP_RAR_Button
             // 
             this.ZIP_RAR_Button.Font = new System.Drawing.Font("Microsoft New Tai Lue", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ZIP_RAR_Button.Location = new System.Drawing.Point(190, 206);
+            this.ZIP_RAR_Button.Location = new System.Drawing.Point(424, 212);
             this.ZIP_RAR_Button.Name = "ZIP_RAR_Button";
             this.ZIP_RAR_Button.Size = new System.Drawing.Size(75, 23);
             this.ZIP_RAR_Button.TabIndex = 6;
@@ -112,7 +115,7 @@
             // 
             this.Optimization_Videos_For_Windows_Gaming_Text.AutoSize = true;
             this.Optimization_Videos_For_Windows_Gaming_Text.Font = new System.Drawing.Font("Impact", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Optimization_Videos_For_Windows_Gaming_Text.Location = new System.Drawing.Point(29, 256);
+            this.Optimization_Videos_For_Windows_Gaming_Text.Location = new System.Drawing.Point(48, 258);
             this.Optimization_Videos_For_Windows_Gaming_Text.Name = "Optimization_Videos_For_Windows_Gaming_Text";
             this.Optimization_Videos_For_Windows_Gaming_Text.Size = new System.Drawing.Size(355, 25);
             this.Optimization_Videos_For_Windows_Gaming_Text.TabIndex = 7;
@@ -121,7 +124,7 @@
             // Optimization_Videos_Gaming_Button
             // 
             this.Optimization_Videos_Gaming_Button.Font = new System.Drawing.Font("Microsoft New Tai Lue", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Optimization_Videos_Gaming_Button.Location = new System.Drawing.Point(390, 258);
+            this.Optimization_Videos_Gaming_Button.Location = new System.Drawing.Point(424, 260);
             this.Optimization_Videos_Gaming_Button.Name = "Optimization_Videos_Gaming_Button";
             this.Optimization_Videos_Gaming_Button.Size = new System.Drawing.Size(75, 23);
             this.Optimization_Videos_Gaming_Button.TabIndex = 8;
@@ -133,7 +136,7 @@
             // 
             this.Optimization_Videos_For_Windows_Office_Text.AutoSize = true;
             this.Optimization_Videos_For_Windows_Office_Text.Font = new System.Drawing.Font("Impact", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Optimization_Videos_For_Windows_Office_Text.Location = new System.Drawing.Point(29, 309);
+            this.Optimization_Videos_For_Windows_Office_Text.Location = new System.Drawing.Point(27, 311);
             this.Optimization_Videos_For_Windows_Office_Text.Name = "Optimization_Videos_For_Windows_Office_Text";
             this.Optimization_Videos_For_Windows_Office_Text.Size = new System.Drawing.Size(376, 25);
             this.Optimization_Videos_For_Windows_Office_Text.TabIndex = 9;
@@ -142,7 +145,7 @@
             // Optimization_Videos_Office_Button
             // 
             this.Optimization_Videos_Office_Button.Font = new System.Drawing.Font("Microsoft New Tai Lue", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Optimization_Videos_Office_Button.Location = new System.Drawing.Point(411, 311);
+            this.Optimization_Videos_Office_Button.Location = new System.Drawing.Point(424, 313);
             this.Optimization_Videos_Office_Button.Name = "Optimization_Videos_Office_Button";
             this.Optimization_Videos_Office_Button.Size = new System.Drawing.Size(75, 23);
             this.Optimization_Videos_Office_Button.TabIndex = 10;
@@ -165,7 +168,7 @@
             // 
             this.Tuning_Pack_Text.AutoSize = true;
             this.Tuning_Pack_Text.Font = new System.Drawing.Font("Impact", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Tuning_Pack_Text.Location = new System.Drawing.Point(29, 366);
+            this.Tuning_Pack_Text.Location = new System.Drawing.Point(289, 366);
             this.Tuning_Pack_Text.Name = "Tuning_Pack_Text";
             this.Tuning_Pack_Text.Size = new System.Drawing.Size(114, 25);
             this.Tuning_Pack_Text.TabIndex = 13;
@@ -174,7 +177,7 @@
             // Tuning_Pack_Button
             // 
             this.Tuning_Pack_Button.Font = new System.Drawing.Font("Microsoft New Tai Lue", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Tuning_Pack_Button.Location = new System.Drawing.Point(149, 368);
+            this.Tuning_Pack_Button.Location = new System.Drawing.Point(424, 368);
             this.Tuning_Pack_Button.Name = "Tuning_Pack_Button";
             this.Tuning_Pack_Button.Size = new System.Drawing.Size(75, 23);
             this.Tuning_Pack_Button.TabIndex = 14;
@@ -198,7 +201,7 @@
             // 
             this.Ultimative_Performance_Power_Plan_Text.AutoSize = true;
             this.Ultimative_Performance_Power_Plan_Text.Font = new System.Drawing.Font("Impact", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Ultimative_Performance_Power_Plan_Text.Location = new System.Drawing.Point(26, 418);
+            this.Ultimative_Performance_Power_Plan_Text.Location = new System.Drawing.Point(107, 418);
             this.Ultimative_Performance_Power_Plan_Text.Name = "Ultimative_Performance_Power_Plan_Text";
             this.Ultimative_Performance_Power_Plan_Text.Size = new System.Drawing.Size(296, 25);
             this.Ultimative_Performance_Power_Plan_Text.TabIndex = 16;
@@ -207,7 +210,7 @@
             // Ulti_Perf_Button
             // 
             this.Ulti_Perf_Button.Font = new System.Drawing.Font("Microsoft New Tai Lue", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Ulti_Perf_Button.Location = new System.Drawing.Point(328, 420);
+            this.Ulti_Perf_Button.Location = new System.Drawing.Point(424, 420);
             this.Ulti_Perf_Button.Name = "Ulti_Perf_Button";
             this.Ulti_Perf_Button.Size = new System.Drawing.Size(75, 23);
             this.Ulti_Perf_Button.TabIndex = 17;
@@ -219,7 +222,7 @@
             // 
             this.Info_Text_Title.AutoSize = true;
             this.Info_Text_Title.Font = new System.Drawing.Font("Impact", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Info_Text_Title.Location = new System.Drawing.Point(26, 464);
+            this.Info_Text_Title.Location = new System.Drawing.Point(27, 468);
             this.Info_Text_Title.Name = "Info_Text_Title";
             this.Info_Text_Title.Size = new System.Drawing.Size(80, 42);
             this.Info_Text_Title.TabIndex = 18;
@@ -229,7 +232,7 @@
             // 
             this.Info_Text.AutoSize = true;
             this.Info_Text.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Info_Text.Location = new System.Drawing.Point(29, 515);
+            this.Info_Text.Location = new System.Drawing.Point(27, 520);
             this.Info_Text.Name = "Info_Text";
             this.Info_Text.Size = new System.Drawing.Size(628, 15);
             this.Info_Text.TabIndex = 19;
@@ -240,7 +243,7 @@
             // 
             this.Browser_Text.AutoSize = true;
             this.Browser_Text.Font = new System.Drawing.Font("Impact", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Browser_Text.Location = new System.Drawing.Point(29, 154);
+            this.Browser_Text.Location = new System.Drawing.Point(320, 160);
             this.Browser_Text.Name = "Browser_Text";
             this.Browser_Text.Size = new System.Drawing.Size(83, 25);
             this.Browser_Text.TabIndex = 1;
@@ -249,7 +252,7 @@
             // Browser_Button
             // 
             this.Browser_Button.Font = new System.Drawing.Font("Microsoft New Tai Lue", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Browser_Button.Location = new System.Drawing.Point(118, 156);
+            this.Browser_Button.Location = new System.Drawing.Point(424, 162);
             this.Browser_Button.Name = "Browser_Button";
             this.Browser_Button.Size = new System.Drawing.Size(75, 23);
             this.Browser_Button.TabIndex = 3;
@@ -260,7 +263,7 @@
             // Other_Button
             // 
             this.Other_Button.Font = new System.Drawing.Font("Microsoft New Tai Lue", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Other_Button.Location = new System.Drawing.Point(634, 311);
+            this.Other_Button.Location = new System.Drawing.Point(886, 317);
             this.Other_Button.Name = "Other_Button";
             this.Other_Button.Size = new System.Drawing.Size(75, 23);
             this.Other_Button.TabIndex = 21;
@@ -272,7 +275,7 @@
             // 
             this.Other_Text.AutoSize = true;
             this.Other_Text.Font = new System.Drawing.Font("Impact", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Other_Text.Location = new System.Drawing.Point(568, 309);
+            this.Other_Text.Location = new System.Drawing.Point(808, 315);
             this.Other_Text.Name = "Other_Text";
             this.Other_Text.Size = new System.Drawing.Size(60, 25);
             this.Other_Text.TabIndex = 20;
@@ -292,7 +295,7 @@
             // Basic_Windows_Button
             // 
             this.Basic_Windows_Button.Font = new System.Drawing.Font("Microsoft New Tai Lue", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Basic_Windows_Button.Location = new System.Drawing.Point(582, 156);
+            this.Basic_Windows_Button.Location = new System.Drawing.Point(886, 162);
             this.Basic_Windows_Button.Name = "Basic_Windows_Button";
             this.Basic_Windows_Button.Size = new System.Drawing.Size(75, 23);
             this.Basic_Windows_Button.TabIndex = 24;
@@ -304,7 +307,7 @@
             // 
             this.Basic_Windows_Infos_Label.AutoSize = true;
             this.Basic_Windows_Infos_Label.Font = new System.Drawing.Font("Impact", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Basic_Windows_Infos_Label.Location = new System.Drawing.Point(284, 154);
+            this.Basic_Windows_Infos_Label.Location = new System.Drawing.Point(576, 160);
             this.Basic_Windows_Infos_Label.Name = "Basic_Windows_Infos_Label";
             this.Basic_Windows_Infos_Label.Size = new System.Drawing.Size(292, 25);
             this.Basic_Windows_Infos_Label.TabIndex = 23;
@@ -313,7 +316,7 @@
             // How_to_Update_Button
             // 
             this.How_to_Update_Button.Font = new System.Drawing.Font("Microsoft New Tai Lue", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.How_to_Update_Button.Location = new System.Drawing.Point(582, 206);
+            this.How_to_Update_Button.Location = new System.Drawing.Point(886, 212);
             this.How_to_Update_Button.Name = "How_to_Update_Button";
             this.How_to_Update_Button.Size = new System.Drawing.Size(75, 23);
             this.How_to_Update_Button.TabIndex = 26;
@@ -325,7 +328,7 @@
             // 
             this.How_To_Update_Label.AutoSize = true;
             this.How_To_Update_Label.Font = new System.Drawing.Font("Impact", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.How_To_Update_Label.Location = new System.Drawing.Point(366, 204);
+            this.How_To_Update_Label.Location = new System.Drawing.Point(658, 210);
             this.How_To_Update_Label.Name = "How_To_Update_Label";
             this.How_To_Update_Label.Size = new System.Drawing.Size(210, 25);
             this.How_To_Update_Label.TabIndex = 25;
@@ -334,7 +337,7 @@
             // Surface_Infos_Button
             // 
             this.Surface_Infos_Button.Font = new System.Drawing.Font("Microsoft New Tai Lue", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Surface_Infos_Button.Location = new System.Drawing.Point(634, 260);
+            this.Surface_Infos_Button.Location = new System.Drawing.Point(886, 264);
             this.Surface_Infos_Button.Name = "Surface_Infos_Button";
             this.Surface_Infos_Button.Size = new System.Drawing.Size(75, 23);
             this.Surface_Infos_Button.TabIndex = 28;
@@ -346,17 +349,54 @@
             // 
             this.Surface_Info_Label.AutoSize = true;
             this.Surface_Info_Label.Font = new System.Drawing.Font("Impact", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Surface_Info_Label.Location = new System.Drawing.Point(504, 258);
+            this.Surface_Info_Label.Location = new System.Drawing.Point(744, 262);
             this.Surface_Info_Label.Name = "Surface_Info_Label";
             this.Surface_Info_Label.Size = new System.Drawing.Size(124, 25);
             this.Surface_Info_Label.TabIndex = 27;
             this.Surface_Info_Label.Text = "Surface Infos:";
+            // 
+            // Dark_Mode_Button
+            // 
+            this.Dark_Mode_Button.AccessibleDescription = "Temporary for the Main Menu";
+            this.Dark_Mode_Button.Font = new System.Drawing.Font("Lucida Bright", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Dark_Mode_Button.Location = new System.Drawing.Point(1031, 12);
+            this.Dark_Mode_Button.Name = "Dark_Mode_Button";
+            this.Dark_Mode_Button.Size = new System.Drawing.Size(86, 23);
+            this.Dark_Mode_Button.TabIndex = 29;
+            this.Dark_Mode_Button.Text = "Dark Mode";
+            this.Dark_Mode_Button.UseVisualStyleBackColor = true;
+            this.Dark_Mode_Button.Click += new System.EventHandler(this.Dark_Mode_Button_Click);
+            // 
+            // Light_Mode_Button
+            // 
+            this.Light_Mode_Button.AccessibleDescription = "Temporary for the Main Menu";
+            this.Light_Mode_Button.Font = new System.Drawing.Font("Lucida Bright", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Light_Mode_Button.Location = new System.Drawing.Point(941, 12);
+            this.Light_Mode_Button.Name = "Light_Mode_Button";
+            this.Light_Mode_Button.Size = new System.Drawing.Size(84, 23);
+            this.Light_Mode_Button.TabIndex = 30;
+            this.Light_Mode_Button.Text = "Light Mode";
+            this.Light_Mode_Button.UseVisualStyleBackColor = true;
+            this.Light_Mode_Button.Click += new System.EventHandler(this.Light_Mode_Button_Click);
+            // 
+            // Dark_Mode_Label_Fun
+            // 
+            this.Dark_Mode_Label_Fun.AutoSize = true;
+            this.Dark_Mode_Label_Fun.Location = new System.Drawing.Point(29, 9);
+            this.Dark_Mode_Label_Fun.Name = "Dark_Mode_Label_Fun";
+            this.Dark_Mode_Label_Fun.Size = new System.Drawing.Size(125, 16);
+            this.Dark_Mode_Label_Fun.TabIndex = 31;
+            this.Dark_Mode_Label_Fun.Text = "This Dark-Mode is Shi* :0";
+            this.Dark_Mode_Label_Fun.Click += new System.EventHandler(this.Dark_Mode_Label_Fun_Click);
             // 
             // Main_Menu_Window
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1130, 626);
+            this.Controls.Add(this.Dark_Mode_Label_Fun);
+            this.Controls.Add(this.Light_Mode_Button);
+            this.Controls.Add(this.Dark_Mode_Button);
             this.Controls.Add(this.Surface_Infos_Button);
             this.Controls.Add(this.Surface_Info_Label);
             this.Controls.Add(this.How_to_Update_Button);
@@ -392,6 +432,7 @@
             this.MinimumSize = new System.Drawing.Size(1146, 665);
             this.Name = "Main_Menu_Window";
             this.Text = "Windows Helper 1.1.0 (Main Menu)";
+            this.Load += new System.EventHandler(this.Main_Menu_Window_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -427,5 +468,8 @@
         private Label How_To_Update_Label;
         private Button Surface_Infos_Button;
         private Label Surface_Info_Label;
+        private Button Dark_Mode_Button;
+        private Button Light_Mode_Button;
+        private Label Dark_Mode_Label_Fun;
     }
 }
