@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace WindowsHelper
 {
-    public partial class Basic_Windows_Main_Menu_Window : Form
+    public partial class Gaming_Window : Form
     {
-        public Basic_Windows_Main_Menu_Window()
+        public Gaming_Window()
         {
             InitializeComponent();
+        }
+
+        private void Back_To_Main_Menu_Button_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Main_Menu_Window().Show();
         }
     }
 }

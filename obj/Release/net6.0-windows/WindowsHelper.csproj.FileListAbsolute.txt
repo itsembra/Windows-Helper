@@ -22,3 +22,10 @@ C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\WindowsHelpe
 C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\WindowsHelper\obj\Release\net6.0-windows\WindowsHelper.pdb
 C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\WindowsHelper\obj\Release\net6.0-windows\WindowsHelper.genruntimeconfig.cache
 C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\WindowsHelper\obj\Release\net6.0-windows\WindowsHelper.Other_Window.resources
+C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\WindowsHelper\obj\Release\net6.0-windows\WindowsHelper.Gaming_Window.resources
+C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\WindowsHelper\obj\Release\net6.0-windows\WindowsHelper.Low_End_PC_Window.resources
+C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\WindowsHelper\obj\Release\net6.0-windows\WindowsHelper.Surface_Infos_Window.resources
+C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\WindowsHelper\obj\Release\net6.0-windows\WindowsHelper.How_to_Update_Firmware_Window.resources
+C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\WindowsHelper\obj\Release\net6.0-windows\WindowsHelper.Basic_Windows_Main_Menu_Window.resources
+C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\WindowsHelper\obj\Release\net6.0-windows\WindowsHelper.Windows_11_Window.resources
+C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\WindowsHelper\obj\Release\net6.0-windows\WindowsHelper.Windows_Cleaners_Window.resources

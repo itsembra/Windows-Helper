@@ -21,9 +21,9 @@ using System.Resources;
 
 namespace WindowsHelper
 {
-    public partial class Tuning_Pack_Window : Form
+    public partial class Windows_11_Window : Form
     {
-        public Tuning_Pack_Window()
+        public Windows_11_Window()
         {
             InitializeComponent();
         }
@@ -34,14 +34,9 @@ namespace WindowsHelper
             new Main_Menu_Window().Show();
         }
 
-        private void Tuning_Pack_Link_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void Windows_11_Link_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start("Tuning_Pack.bat");
-        }
-
-        private void YouTube_Info_Link_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            Process.Start("Tuning_Tutorial.bat");
+            Process.Start("Windows11.bat");
         }
     }
 }

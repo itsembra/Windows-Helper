@@ -9,10 +9,11 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\noahb\\.nuget\\packages\\": {}
+    "C:\\Users\\noahb\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\noahb\\Desktop\\PC\\Visual Studio Projects\\HelpfulWindowsApps\\WindowsHelper\\WindowsHelper.csproj",
       "projectName": "WindowsHelper",
@@ -20,8 +21,12 @@
       "packagesPath": "C:\\Users\\noahb\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\noahb\\Desktop\\PC\\Visual Studio Projects\\HelpfulWindowsApps\\WindowsHelper\\obj\\publish\\win-x64\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\noahb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

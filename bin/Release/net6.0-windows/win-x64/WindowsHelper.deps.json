@@ -7,7 +7,7 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {},
     ".NETCoreApp,Version=v6.0/win-x64": {
-      "WindowsHelper/1.0.0": {
+      "WindowsHelper/1.1.0": {
         "dependencies": {
           "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "6.0.1",
           "runtimepack.Microsoft.WindowsDesktop.App.Runtime.win-x64": "6.0.1"
@@ -1074,7 +1074,7 @@
     }
   },
   "libraries": {
-    "WindowsHelper/1.0.0": {
+    "WindowsHelper/1.1.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace WindowsHelper
 {
-    public partial class Surface_Infos_Window : Form
+    public partial class How_to_Update_Firmware_Window : Form
     {
-        public Surface_Infos_Window()
+        public How_to_Update_Firmware_Window()
         {
             InitializeComponent();
+        }
+
+        private void Back_To_Main_Menu_Button_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Main_Menu_Window().Show();
         }
     }
 }

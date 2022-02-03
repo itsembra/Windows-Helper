@@ -519,3 +519,10 @@ C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\WindowsHelpe
 C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\WindowsHelper\bin\Release\net6.0-windows\win-x64\zh-Hant\WindowsFormsIntegration.resources.dll
 C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\WindowsHelper\obj\Release\net6.0-windows\win-x64\WindowsHelper.Other_Window.resources
 C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\WindowsHelper\obj\Release\net6.0-windows\win-x64\WindowsHelper.csproj.CopyComplete
+C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\WindowsHelper\obj\Release\net6.0-windows\win-x64\WindowsHelper.Gaming_Window.resources
+C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\WindowsHelper\obj\Release\net6.0-windows\win-x64\WindowsHelper.Low_End_PC_Window.resources
+C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\WindowsHelper\obj\Release\net6.0-windows\win-x64\WindowsHelper.Surface_Infos_Window.resources
+C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\WindowsHelper\obj\Release\net6.0-windows\win-x64\WindowsHelper.How_to_Update_Firmware_Window.resources
+C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\WindowsHelper\obj\Release\net6.0-windows\win-x64\WindowsHelper.Basic_Windows_Main_Menu_Window.resources
+C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\WindowsHelper\obj\Release\net6.0-windows\win-x64\WindowsHelper.Windows_11_Window.resources
+C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\WindowsHelper\obj\Release\net6.0-windows\win-x64\WindowsHelper.Windows_Cleaners_Window.resources

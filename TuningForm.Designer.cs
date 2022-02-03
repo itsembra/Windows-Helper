@@ -35,6 +35,9 @@
             this.Back_To_Main_Menu_Button = new System.Windows.Forms.Button();
             this.YouTube_Info_Link = new System.Windows.Forms.LinkLabel();
             this.YouTube_Text_Info_Label = new System.Windows.Forms.Label();
+            this.Mouse_Tuning_Link = new System.Windows.Forms.LinkLabel();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.Mouse_Tuning_Label = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Tuning_Pack_Text
@@ -71,7 +74,7 @@
             // Back_To_Main_Menu_Button
             // 
             this.Back_To_Main_Menu_Button.Font = new System.Drawing.Font("Microsoft New Tai Lue", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Back_To_Main_Menu_Button.Location = new System.Drawing.Point(555, 113);
+            this.Back_To_Main_Menu_Button.Location = new System.Drawing.Point(555, 164);
             this.Back_To_Main_Menu_Button.Name = "Back_To_Main_Menu_Button";
             this.Back_To_Main_Menu_Button.Size = new System.Drawing.Size(119, 23);
             this.Back_To_Main_Menu_Button.TabIndex = 3;
@@ -101,11 +104,45 @@
             this.YouTube_Text_Info_Label.TabIndex = 5;
             this.YouTube_Text_Info_Label.Text = "YouTube Tutorial:";
             // 
+            // Mouse_Tuning_Link
+            // 
+            this.Mouse_Tuning_Link.AutoSize = true;
+            this.Mouse_Tuning_Link.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Mouse_Tuning_Link.Location = new System.Drawing.Point(334, 125);
+            this.Mouse_Tuning_Link.Name = "Mouse_Tuning_Link";
+            this.Mouse_Tuning_Link.Size = new System.Drawing.Size(159, 12);
+            this.Mouse_Tuning_Link.TabIndex = 8;
+            this.Mouse_Tuning_Link.TabStop = true;
+            this.Mouse_Tuning_Link.Text = "https://bit.ly/3rcKe8R";
+            this.Mouse_Tuning_Link.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Mouse_Tuning_Link_LinkClicked);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.groupBox1.Location = new System.Drawing.Point(12, 155);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(295, 10);
+            this.groupBox1.TabIndex = 7;
+            this.groupBox1.TabStop = false;
+            // 
+            // Mouse_Tuning_Label
+            // 
+            this.Mouse_Tuning_Label.AutoSize = true;
+            this.Mouse_Tuning_Label.Font = new System.Drawing.Font("Impact", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Mouse_Tuning_Label.Location = new System.Drawing.Point(23, 110);
+            this.Mouse_Tuning_Label.Name = "Mouse_Tuning_Label";
+            this.Mouse_Tuning_Label.Size = new System.Drawing.Size(286, 42);
+            this.Mouse_Tuning_Label.TabIndex = 6;
+            this.Mouse_Tuning_Label.Text = "Mouse Tuning Pack";
+            // 
             // Tuning_Pack_Window
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(686, 148);
+            this.ClientSize = new System.Drawing.Size(686, 199);
+            this.Controls.Add(this.Mouse_Tuning_Link);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.Mouse_Tuning_Label);
             this.Controls.Add(this.YouTube_Text_Info_Label);
             this.Controls.Add(this.YouTube_Info_Link);
             this.Controls.Add(this.Back_To_Main_Menu_Button);
@@ -115,8 +152,8 @@
             this.Font = new System.Drawing.Font("Impact", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(702, 187);
-            this.MinimumSize = new System.Drawing.Size(702, 187);
+            this.MaximumSize = new System.Drawing.Size(702, 238);
+            this.MinimumSize = new System.Drawing.Size(702, 238);
             this.Name = "Tuning_Pack_Window";
             this.Text = "Windows Helper (Tuning Pack)";
             this.ResumeLayout(false);
@@ -132,5 +169,8 @@
         private Button Back_To_Main_Menu_Button;
         private LinkLabel YouTube_Info_Link;
         private Label YouTube_Text_Info_Label;
+        private LinkLabel Mouse_Tuning_Link;
+        private GroupBox groupBox1;
+        private Label Mouse_Tuning_Label;
     }
 }
