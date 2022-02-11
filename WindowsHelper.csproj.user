@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\WindowsHelper\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="GamingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LowEndPCForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="OtherForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SurfaceInfosForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Windows11Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="WindowsCleanersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="WinBasicsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainMenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BrowserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ZipRarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="OptiGamingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="OptiOfficeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TuningForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UltiPowerplanForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
