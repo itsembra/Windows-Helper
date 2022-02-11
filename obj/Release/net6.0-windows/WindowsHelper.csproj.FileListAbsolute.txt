@@ -4,7 +4,6 @@ C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\WindowsHelpe
 C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\WindowsHelper\bin\Release\net6.0-windows\WindowsHelper.dll
 C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\WindowsHelper\bin\Release\net6.0-windows\ref\WindowsHelper.dll
 C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\WindowsHelper\bin\Release\net6.0-windows\WindowsHelper.pdb
-C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\WindowsHelper\obj\Release\net6.0-windows\WindowsHelper.csproj.AssemblyReference.cache
 C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\WindowsHelper\obj\Release\net6.0-windows\WindowsHelper.Main_Menu_Window.resources
 C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\WindowsHelper\obj\Release\net6.0-windows\WindowsHelper.Browser_Window.resources
 C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\WindowsHelper\obj\Release\net6.0-windows\WindowsHelper.ZIP_RAR_Window.resources

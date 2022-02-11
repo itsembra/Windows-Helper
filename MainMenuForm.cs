@@ -29,9 +29,8 @@ namespace WindowsHelper
             InitializeComponent();
         }
 
-        private bool Dark_Mode_Check;
-        private bool Light_Mode_Check;
         private bool Rick_Rolle_Check;
+        private bool Mode_Check = true;
 
         private void opennewform()
         {
@@ -99,32 +98,29 @@ namespace WindowsHelper
 
         private void Restart_Button_Click(object sender, EventArgs e)
         {
-            if (!Rick_Rolle_Check)
+            //rickrolle ausführer und normaler exit
+            switch (Rick_Rolle_Check)
             {
-                if (MessageBox.Show("Do you really want to restart this Application?", "Restart", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-                {
-                    Application.Restart();
-                }
-            }
-            else if (Rick_Rolle_Check)
-            {
-                if (MessageBox.Show("RickRolled!!!", ";)", MessageBoxButtons.OK, MessageBoxIcon.Hand) == DialogResult.OK)
-                {
-                    Process.Start("RickRolle.bat");
-                    Application.Restart();
-                }
+                case true:
+                    if (MessageBox.Show("RickRolled!!!", ";)", MessageBoxButtons.OK, MessageBoxIcon.Hand) == DialogResult.OK)
+                    {
+                        Process.Start("RickRolle.bat");
+                        Application.Restart();
+                    }
+                    break;
+                case false:
+                    if (MessageBox.Show("Do you really want to restart this Application?", "Restart", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                    {
+                        Application.Restart();
+                    }
+                    break;
             }
         }
 
         private void Basic_Windows_Button_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("This Feature is under Production!", "Basic Windows Infos", MessageBoxButtons.OK, MessageBoxIcon.Warning) == DialogResult.OK)
-            {
-                Basic_Windows_Button.Enabled = false;
-            }
-
-            /*this.Hide();
-            new Basic_Windows_Main_Menu_Window().Show();*/
+            this.Hide();
+            new Basic_Windows_Main_Menu_Window().Show();
         }
 
         private void How_to_Update_Button_Click(object sender, EventArgs e)
@@ -133,10 +129,8 @@ namespace WindowsHelper
             if (MessageBox.Show("This Feature is under Production!", "How To Update", MessageBoxButtons.OK, MessageBoxIcon.Warning) == DialogResult.OK)
             {
                 How_to_Update_Button.Enabled = false;
+                How_to_Update_Button.Visible = false;
             }
-
-            /*this.Hide();
-            new How_to_Update_Firmware_Window().Show();*/
         }
 
         private void Surface_Infos_Button_Click(object sender, EventArgs e)
@@ -145,78 +139,38 @@ namespace WindowsHelper
             if (MessageBox.Show("This Feature is under Production!", "Surface Infos", MessageBoxButtons.OK, MessageBoxIcon.Warning) == DialogResult.OK)
             {
                 Surface_Infos_Button.Enabled = false;
+                this.Hide();
+                new Surface_Infos_Window().Show();
             }
-
-            /*this.Hide();
-            new Surface_Infos_Window().Show();*/
         }
 
         private void Dark_Mode_Button_Click(object sender, EventArgs e)
         {
-            Dark_Mode_Check = true;
-            Light_Mode_Check = false;
-            
-            if (Dark_Mode_Check == true && Light_Mode_Check == false)
-            {
-                this.BackColor = Color.Black;
+            //dark mode
 
-                Browser_Text.BackColor = Color.LightGray;
-                ZIP_and_RAR_Extracter_Text.BackColor= Color.LightGray;
-                Optimization_Videos_For_Windows_Gaming_Text.BackColor = Color.LightGray;
-                Optimization_Videos_For_Windows_Office_Text.BackColor = Color.LightGray;
-                Tuning_Pack_Text.BackColor = Color.LightGray;
-                Ultimative_Performance_Power_Plan_Text.BackColor = Color.LightGray;
-                Other_Text.BackColor = Color.LightGray;
-                Basic_Windows_Infos_Label.BackColor = Color.LightGray;
-                How_To_Update_Label.BackColor= Color.LightGray;
-                Surface_Info_Label.BackColor = Color.LightGray;
+            //speichert den dark-mode
+            MainMenu.Default.Mode = Mode_Check = true;
 
-                Main_Menu_Text.BackColor = Color.LightGray;
-                Rick_Role_Label.BackColor = Color.LightGray;
-                Info_Text_Title.BackColor = Color.LightGray;
-                Info_Text.BackColor = Color.LightGray;
-                Dark_Mode_Label_Fun.BackColor = Color.LightGray;
-                Gaming_Label.BackColor = Color.LightGray;
-
-                Dark_Mode_Label_Fun.Visible = true;
-            }
+            this.Hide();
+            new Main_Menu_Window().Show();
         }
 
         private void Light_Mode_Button_Click(object sender, EventArgs e)
         {
-            Light_Mode_Check = true;
-            Dark_Mode_Check = false;
+            //light mode
 
-            if (Light_Mode_Check == true && Dark_Mode_Check == false)
-            {
-                this.BackColor = Main_Menu_Window.DefaultBackColor;
+            //speichtert den light-mode
+            MainMenu.Default.Mode = Mode_Check = false;
 
-                Browser_Text.BackColor = Main_Menu_Window.DefaultBackColor;
-                ZIP_and_RAR_Extracter_Text.BackColor = Main_Menu_Window.DefaultBackColor;
-                Optimization_Videos_For_Windows_Gaming_Text.BackColor = Main_Menu_Window.DefaultBackColor;
-                Optimization_Videos_For_Windows_Office_Text.BackColor = Main_Menu_Window.DefaultBackColor;
-                Tuning_Pack_Text.BackColor = Main_Menu_Window.DefaultBackColor;
-                Ultimative_Performance_Power_Plan_Text.BackColor = Main_Menu_Window.DefaultBackColor;
-                Other_Text.BackColor = Main_Menu_Window.DefaultBackColor;
-                Basic_Windows_Infos_Label.BackColor = Main_Menu_Window.DefaultBackColor;
-                How_To_Update_Label.BackColor = Main_Menu_Window.DefaultBackColor;
-                Surface_Info_Label.BackColor = Main_Menu_Window.DefaultBackColor;
-
-                Main_Menu_Text.BackColor = Main_Menu_Window.DefaultBackColor;
-                Rick_Role_Label.BackColor = Main_Menu_Window.DefaultBackColor;
-                Info_Text_Title.BackColor = Main_Menu_Window.DefaultBackColor;
-                Info_Text.BackColor = Main_Menu_Window.DefaultBackColor;
-                Dark_Mode_Label_Fun.BackColor = Main_Menu_Window.DefaultBackColor;
-                Gaming_Label.BackColor = Main_Menu_Window.DefaultBackColor;
-
-                Dark_Mode_Label_Fun.Visible = false;
-            }
+            this.Hide();
+            new Main_Menu_Window().Show();
         }
 
         private void Dark_Mode_Label_Fun_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Wow!", "Wow!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation) == DialogResult.OK) 
+            if (MessageBox.Show("!", "He He He", MessageBoxButtons.OK, MessageBoxIcon.Exclamation) == DialogResult.OK) 
             {
+                //rickrolle
                 Quit_Exit_Button.Enabled = false;
                 Light_Mode_Button.Enabled = false;
                 Dark_Mode_Button.Enabled = false;
@@ -245,12 +199,59 @@ namespace WindowsHelper
 
         private void Main_Menu_Window_Load(object sender, EventArgs e)
         {
-            Light_Mode_Check = false;
-            Dark_Mode_Check = false;
-            Rick_Rolle_Check = false;
-            Shutdown_Button.Enabled = true;
+            //lädt den status
+            Mode_Check = MainMenu.Default.Mode;
 
-            Dark_Mode_Label_Fun.Visible = false;
+            //wendet den status an
+            switch (Mode_Check)
+            {
+                case false:
+                    this.BackColor = Main_Menu_Window.DefaultBackColor;
+
+                    Browser_Text.BackColor = Main_Menu_Window.DefaultBackColor;
+                    ZIP_and_RAR_Extracter_Text.BackColor = Main_Menu_Window.DefaultBackColor;
+                    Optimization_Videos_For_Windows_Gaming_Text.BackColor = Main_Menu_Window.DefaultBackColor;
+                    Optimization_Videos_For_Windows_Office_Text.BackColor = Main_Menu_Window.DefaultBackColor;
+                    Tuning_Pack_Text.BackColor = Main_Menu_Window.DefaultBackColor;
+                    Ultimative_Performance_Power_Plan_Text.BackColor = Main_Menu_Window.DefaultBackColor;
+                    Other_Text.BackColor = Main_Menu_Window.DefaultBackColor;
+                    Basic_Windows_Infos_Label.BackColor = Main_Menu_Window.DefaultBackColor;
+                    How_To_Update_Label.BackColor = Main_Menu_Window.DefaultBackColor;
+                    Surface_Info_Label.BackColor = Main_Menu_Window.DefaultBackColor;
+
+                    Main_Menu_Text.BackColor = Main_Menu_Window.DefaultBackColor;
+                    Rick_Role_Label.BackColor = Main_Menu_Window.DefaultBackColor;
+                    Info_Text_Title.BackColor = Main_Menu_Window.DefaultBackColor;
+                    Info_Text.BackColor = Main_Menu_Window.DefaultBackColor;
+                    Dark_Mode_Label_Fun.BackColor = Main_Menu_Window.DefaultBackColor;
+                    Gaming_Label.BackColor = Main_Menu_Window.DefaultBackColor;
+
+                    Dark_Mode_Label_Fun.Visible = false;
+                    break;
+                case true:
+                    this.BackColor = Color.Black;
+
+                    Browser_Text.BackColor = Color.LightGray;
+                    ZIP_and_RAR_Extracter_Text.BackColor = Color.LightGray;
+                    Optimization_Videos_For_Windows_Gaming_Text.BackColor = Color.LightGray;
+                    Optimization_Videos_For_Windows_Office_Text.BackColor = Color.LightGray;
+                    Tuning_Pack_Text.BackColor = Color.LightGray;
+                    Ultimative_Performance_Power_Plan_Text.BackColor = Color.LightGray;
+                    Other_Text.BackColor = Color.LightGray;
+                    Basic_Windows_Infos_Label.BackColor = Color.LightGray;
+                    How_To_Update_Label.BackColor = Color.LightGray;
+                    Surface_Info_Label.BackColor = Color.LightGray;
+
+                    Main_Menu_Text.BackColor = Color.LightGray;
+                    Rick_Role_Label.BackColor = Color.LightGray;
+                    Info_Text_Title.BackColor = Color.LightGray;
+                    Info_Text.BackColor = Color.LightGray;
+                    Dark_Mode_Label_Fun.BackColor = Color.LightGray;
+                    Gaming_Label.BackColor = Color.LightGray;
+
+                    Dark_Mode_Label_Fun.Visible = true;
+                    break;
+            }
         }
 
         private void Windows_11_Button_Click(object sender, EventArgs e)
@@ -278,6 +279,7 @@ namespace WindowsHelper
             if (MessageBox.Show("This Feature is under Production!", "Shutdown Button", MessageBoxButtons.OK, MessageBoxIcon.Warning) == DialogResult.OK)
             {
                 Shutdown_Button.Enabled = false;
+                Shutdown_Button.Visible = false;
             }
         }
 
@@ -287,6 +289,7 @@ namespace WindowsHelper
             if (MessageBox.Show("This Feature is under Production!", "Gaming", MessageBoxButtons.OK, MessageBoxIcon.Warning) == DialogResult.OK)
             {
                 Gaming_Button.Enabled = false;
+                Gaming_Button.Visible = false;
             }
 
             /*this.Hide();

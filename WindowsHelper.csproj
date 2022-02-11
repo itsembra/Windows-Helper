@@ -26,6 +26,27 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="MainMenu.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>MainMenu.settings</DependentUpon>
+    </Compile>
+    <Compile Update="WinBasics.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>WinBasics.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="MainMenu.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>MainMenu.Designer.cs</LastGenOutput>
+    </None>
+    <None Update="WinBasics.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>WinBasics.Designer.cs</LastGenOutput>
+    </None>
     <None Update="WindowsHelperIcon1.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
