@@ -1,1 +1,0 @@
-start https://github.com/Embra724/Windows-Helper/releases
