@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "3aGQ015N4wAETc0FI+yJDywt+MDi40v2E0nTyIJ1c3QBjHYYlj+r7mtzx5wYk4na2y9VNElyMeL9kfx3Bc2unQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\noahb\\Desktop\\PC\\Files\\Programms\\Visual-Studio-Projects\\HelpfulWindowsApps\\WindowsHelper\\WindowsHelper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\noahb\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.6\\microsoft.netcore.app.runtime.win-x64.6.0.6.nupkg.sha512",
+    "C:\\Users\\noahb\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.6\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.6.nupkg.sha512",
+    "C:\\Users\\noahb\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.6\\microsoft.aspnetcore.app.runtime.win-x64.6.0.6.nupkg.sha512",
+    "C:\\Users\\noahb\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.6\\microsoft.netcore.app.crossgen2.win-x64.6.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}

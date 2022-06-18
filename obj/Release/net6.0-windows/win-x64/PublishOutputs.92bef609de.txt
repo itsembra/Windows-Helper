@@ -1,0 +1,7 @@
+C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\Windows Helper - Install\Windows\Project#\WindowsHelper.pdb
+C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\Windows Helper - Install\Windows\Project#\D3DCompiler_47_cor3.dll
+C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\Windows Helper - Install\Windows\Project#\PenImc_cor3.dll
+C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\Windows Helper - Install\Windows\Project#\PresentationNative_cor3.dll
+C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\Windows Helper - Install\Windows\Project#\vcruntime140_cor3.dll
+C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\Windows Helper - Install\Windows\Project#\wpfgfx_cor3.dll
+C:\Users\noahb\Desktop\PC\Visual Studio Projects\HelpfulWindowsApps\Windows Helper - Install\Windows\Project#\WindowsHelper.exe
